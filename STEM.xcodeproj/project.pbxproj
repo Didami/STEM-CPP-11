@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		721B5D482ACC8C73008DE8B2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 721B5D472ACC8C73008DE8B2 /* main.cpp */; };
 		723D341C2A9E68D900D6C997 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 723D341B2A9E68D900D6C997 /* main.cpp */; };
 		7299BDD02A9660AF00B3CEB6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7299BDCF2A9660AF00B3CEB6 /* main.cpp */; };
 		72E6E1762AA8D69A0015E331 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72E6E1752AA8D69A0015E331 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		721B5D432ACC8C73008DE8B2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		723D34172A9E68D900D6C997 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -43,6 +53,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		721B5D452ACC8C73008DE8B2 /* Examen 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Examen 1"; sourceTree = BUILT_PRODUCTS_DIR; };
+		721B5D472ACC8C73008DE8B2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		723D34192A9E68D900D6C997 /* Game1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Game1; sourceTree = BUILT_PRODUCTS_DIR; };
 		723D341B2A9E68D900D6C997 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		7299BDCC2A9660AF00B3CEB6 /* STEM */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = STEM; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +64,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		721B5D422ACC8C73008DE8B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		723D34162A9E68D900D6C997 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,6 +95,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		721B5D462ACC8C73008DE8B2 /* Examen 1 */ = {
+			isa = PBXGroup;
+			children = (
+				721B5D472ACC8C73008DE8B2 /* main.cpp */,
+			);
+			path = "Examen 1";
+			sourceTree = "<group>";
+		};
 		723D341A2A9E68D900D6C997 /* Game1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +117,7 @@
 				7299BDCE2A9660AF00B3CEB6 /* STEM */,
 				723D341A2A9E68D900D6C997 /* Game1 */,
 				72E6E1742AA8D69A0015E331 /* Areas */,
+				721B5D462ACC8C73008DE8B2 /* Examen 1 */,
 				7299BDCD2A9660AF00B3CEB6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,6 +128,7 @@
 				7299BDCC2A9660AF00B3CEB6 /* STEM */,
 				723D34192A9E68D900D6C997 /* Game1 */,
 				72E6E1732AA8D69A0015E331 /* Areas */,
+				721B5D452ACC8C73008DE8B2 /* Examen 1 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,6 +152,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		721B5D442ACC8C73008DE8B2 /* Examen 1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 721B5D4B2ACC8C73008DE8B2 /* Build configuration list for PBXNativeTarget "Examen 1" */;
+			buildPhases = (
+				721B5D412ACC8C73008DE8B2 /* Sources */,
+				721B5D422ACC8C73008DE8B2 /* Frameworks */,
+				721B5D432ACC8C73008DE8B2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Examen 1";
+			productName = "Examen 1";
+			productReference = 721B5D452ACC8C73008DE8B2 /* Examen 1 */;
+			productType = "com.apple.product-type.tool";
+		};
 		723D34182A9E68D900D6C997 /* Game1 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 723D341D2A9E68D900D6C997 /* Build configuration list for PBXNativeTarget "Game1" */;
@@ -183,6 +229,9 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					721B5D442ACC8C73008DE8B2 = {
+						CreatedOnToolsVersion = 15.0;
+					};
 					723D34182A9E68D900D6C997 = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -210,11 +259,20 @@
 				7299BDCB2A9660AF00B3CEB6 /* STEM */,
 				723D34182A9E68D900D6C997 /* Game1 */,
 				72E6E1722AA8D69A0015E331 /* Areas */,
+				721B5D442ACC8C73008DE8B2 /* Examen 1 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		721B5D412ACC8C73008DE8B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				721B5D482ACC8C73008DE8B2 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		723D34152A9E68D900D6C997 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,6 +300,32 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		721B5D492ACC8C73008DE8B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		721B5D4A2ACC8C73008DE8B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		723D341E2A9E68D900D6C997 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -406,6 +490,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		721B5D4B2ACC8C73008DE8B2 /* Build configuration list for PBXNativeTarget "Examen 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				721B5D492ACC8C73008DE8B2 /* Debug */,
+				721B5D4A2ACC8C73008DE8B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		723D341D2A9E68D900D6C997 /* Build configuration list for PBXNativeTarget "Game1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
